@@ -1,0 +1,67 @@
+body, html {
+    height:100%;
+    margin: 0px;
+}
+
+body{
+    background-color:rgb(102, 101, 101);
+}
+
+nav li{
+    display: inline;
+    color:black;
+    background-color: white;
+    padding: 20px;
+}
+
+nav :hover{
+    color: orange;
+}
+
+.hero-image{
+    background-image:url(../css/Images/Monatnaimage.jpg);
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#Career{
+    background:white;
+    display: inline-block;
+    width: 900px;
+    height: 225px;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+#Personal{
+    background:white;
+    display: inline-block;
+    width: 650px;
+    height: 310px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+ h1, h2, body{
+    color: black;
+    text-align: center;
+    padding: 0px;
+  }
+
+#Headshot{
+    width: 300px;
+    border-radius: 10%;
+}
+
+#Family{
+    width: 600px;
+    border-radius: 20%;
+}
+
+#Onyx{
+    width: 600px;
+    border-radius: 20%;
+}
