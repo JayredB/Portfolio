@@ -1,0 +1,106 @@
+body, html {
+    height:100%;
+    margin: 0px;
+}
+
+body{
+    background-color:rgb(102, 101, 101);
+}
+
+nav li{
+    display: inline;
+    color:black;
+    background-color: rgb(235, 163, 29);
+    text-decoration: none;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav :hover{
+    color: rgb(119, 0, 255);
+}
+
+.hero-image{
+    background-image:url(static/background-image/Monatnaimage.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.Career{
+    margin-top: 70px;
+    background:rgb(235, 163, 29);
+    display: grid;
+    vertical-align: text-top;
+    width: 800px;
+    height: 400px;
+    border-radius: 5px;
+    padding: px;
+}
+
+hr {
+    border: none;
+    background-color: olive;
+    width: 300px;
+    height: 2px;
+}
+
+p {
+    padding: 10px;
+}
+
+.wrapper2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+}
+
+#Personal{
+    background:rgb(235, 163, 29);
+    display: inline-block;
+    width: 650px;
+    height: 300px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+ h1, h2, body{
+    color: black;
+    text-align: center;
+  }
+
+#Headshot{
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+}
+
+#Family{
+    width: 600px;
+    border-radius: 20%;
+}
+
+#Onyx{
+    width: 600px;
+    border-radius: 20%;
+}
+
+.footer {
+    width: 400px;
+    background-color: rgb(235, 163, 29);
+    border-style: solid;
+    margin-left: 230px;
+    margin-bottom: 50px;
+    white-space: pre-line;
+}
